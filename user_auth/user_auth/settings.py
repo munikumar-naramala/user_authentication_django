@@ -85,10 +85,10 @@ WSGI_APPLICATION = 'user_auth.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'user_auth',
+        'NAME': 'user-auth',
         'USER': 'postgres',
         'PASSWORD': 'password',
-        'HOST': 'localhost',
+        'HOST': 'user-auth.c8mn1rcqgryi.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
